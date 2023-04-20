@@ -1,0 +1,39 @@
+/* Write your CSS here */
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-container {
+  background-color: #1e293b;
+  background-size: cover;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+.heading {
+  font-family: 'Bree serif';
+  font-size: 60px;
+  text-align: center;
+  color: #f0bb03;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.paragraph {
+  color: #ffffff;
+  font-family: 'Bree serif';
+  font-size: 30px;
+}
+.button {
+  background-color: #ffffff;
+  font-family: 'Bree Serif';
+  color: #1e293b;
+  font-size: 18px;
+  border-radius: 10px;
+  border-width: 0px;
+  padding: 10px;
+}
